@@ -1,6 +1,7 @@
 # gopackage
 
 [![main](https://github.com/hexlet-boilerplates/gopackage/actions/workflows/main.yml/badge.svg)](https://github.com/hexlet-boilerplates/gopackage/actions/workflows/main.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fd09841cdc35d49a8ca8/maintainability)](https://codeclimate.com/github/hexlet-boilerplates/gopackage/maintainability)
 
 ## Requirements
 
