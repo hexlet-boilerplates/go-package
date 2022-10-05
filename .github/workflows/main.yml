@@ -8,12 +8,15 @@ jobs:
   run:
     name: Run
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go-versions: ['1.17', '1.18', '1.19']
 
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v3
         with:
-          go-version: '^1.19'
+          go-version: ${{ matrix.go-versions }}
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v3
         with:
