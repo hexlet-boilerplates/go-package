@@ -1,11 +1,12 @@
-package gopackage
+package main
 
 import (
-    "fmt"
+	"fmt"
+	"hexlet-boilerplates/gopackage/src"
 )
 
 func main() {
     // Get a greeting message and print it.
-    message := Hello("Gladys")
+    message := src.Hello("Gladys")
     fmt.Println(message)
 }
